@@ -14,15 +14,22 @@ The result is this repository that include blabla bla and below documentation.
 ```java
 public boolean isEven(int n)
 ```
-------------------------
-some result
+
+Equivalence classes | Test Case
+------------------ | ------------------------
+n modolus 2 != 0 (n % 2 != 0)  | Odd (False): 53
+n modolus 2 == 0 (n % 2 == 0) | Even (True): 56
 
 ------------------------
 
 - 2). Make equivalances classes for an input variable that represents a mortgage applicant's salary. The valid range is $1000 pr. month to $75,000 pr. month.
 
 
-some results
+Equivalence classes | Test Case
+------------------- | ----------------
+amount < 1000 | Invalid : 500
+1000 <= ammount <= 75000 | Valid: 25000
+75000 < ammount | Invalid: 10000000
 
 -------------
 
@@ -32,9 +39,14 @@ some results
 public static int getNumDaysinMonth(int month, int year)
 ```
 
+Note: Technically, you can calculate all future number of days in a month, and all previus ones aswell. But i am not sure if this specific method can. Assuming it can making the integer year pretty irelevant to include, therefor i will assume it can not calculate earlier than 0
 
-some results
-
+Equivalance classes       | Test Case
+------------------------- | -------------------
+0 < month < 13   | Valid: 2
+0 > month || month > 13     | Invalid: -3  || 16
+0 <= year | Valid : 4018
+0 > year | Invalid: -232
 
 -----------------------
 
