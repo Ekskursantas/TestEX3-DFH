@@ -117,6 +117,22 @@ Note: I removed cases where year is not divisble by 4, because that is by defaul
 
 - 1). Make a state diagram hat depicts the state of MyArrayListWithBugs.java and show the events that cause a change from one state to another. (ie. transition.)
 
+Action | State | Next state
+---------------------:| ----------- | --------------
+MyArrayListWithBugs() | S1 | S2
+Add(Object o) | S2 | S2
+Size() | S2 | S2
+Succesfully get(int Index) | S2 | S2
+OutOfBounds get(int index) | S2 | S3
+Succesfully add(int index, object e) | S2 | S2
+OutOfBounds add(int index, object e) | S2 | S3
+Succesfully remove(int index) | S2 | S2
+OutOfBounds remove(int index) | S2 | S3
+
+
+
+----------------------
+
 - 2). Derive test cases from the state diagram
 
 - 3). Implement automated unit tests uning the test cases above.
