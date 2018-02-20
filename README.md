@@ -99,21 +99,21 @@ Dedutible meet          | T | F | T | F
 80% reimbursed          | - | - | Y | -
 0% reimbursed           | - | Y | - | Y
 
-I was wondering whether to remove Rule 2 and 4. Since they are not valid. For any reimburshment, the deductible needs to be meet. In rule 2 and 4, it is not. So those are invalid cases with no outcome, unless an outcome would be "No reinburshment"..
+Note: I was wondering whether to remove Rule 2 and 4. Since they are not valid. For any reimburshment, the deductible needs to be meet. In rule 2 and 4, it is not. So those are invalid cases with no outcome, unless an outcome would be "No reinburshment"..
 Therefor i have added "No reimbursment"
 
 - 2). Make a decision table for leap years.
 
 
-Conditions:                | Rule 1 | Rule 2 | Rule 3 | Rule 4 |
+Conditions:                | Rule 1 | Rule 2 | Rule 3 | Rule 4 | 
 -------------------------- |:------:|:------:|:------:|:------:|
-Doctors Office          | T | T | F | F
-Dedutible meet          | T | F | T | F
-**Actions/Outcomes:**       | **¤** | **¤** | **¤** | **¤**
-50% reimbursed          | Y | - | - | -
-80% reimbursed          | - | - | Y | -
-0% reimbursed           | - | Y | - | Y
+Year Divisible by 4        | T | T | T | T |         
+Year Divisble by 100       | T | T | F | F |  
+Year Divisble by 400       | T | F | T | F | 
+**Actions/Outcomes:**      | **¤** | **¤** | **¤** | **¤** | 
+Leap year                  | Y | - | Y | Y |
 
+Note: I removed cases where year is not divisble by 4, because that is by default not a leap year. So not relevant in this case.
 
 -----------
 
