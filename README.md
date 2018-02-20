@@ -132,7 +132,7 @@ OutOfBounds remove(int index) | S2 | S3
 
 S1 = Startstate, S2 = Working, idle, ready state. S3 = Error, exception chrashed state.
 
-
+![Alt text](Statemachinediagram1.png?raw=true "State Transition Diagram")
 
 ----------------------
 
