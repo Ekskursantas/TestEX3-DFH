@@ -55,11 +55,19 @@ Do boundary value analysis for input value exercise.
 
 - 1).
 
-some results
+I find this one very hard to find generalized boundaries. In my optic, there is infinite boundaries.
+
+Odd | Even | Odd | Even | Odd | Even | etc.
+---:| --- | --- | --- | --- | --- | ----
+1 | 2 - 2 | 3 - 3 | 4 - 4 | 5 - 5 | 6 - 6 | ...
+
+It is boundaryless :-D
 
 - 2).
 
-some results
+Invalid | Valid | Invalid
+-----------:|:--------:|:--------
+-∞ to 999 | 1000 to 75000 | 75001 to ∞
 
 - 3).
 
