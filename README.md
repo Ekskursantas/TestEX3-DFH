@@ -130,6 +130,9 @@ Succesfully remove(int index) | S2 | S2
 OutOfBounds remove(int index) | S2 | S3
 
 
+S1 = Startstate, S2 = Working, idle, ready state. S3 = Error, exception chrashed state.
+
+
 
 ----------------------
 
