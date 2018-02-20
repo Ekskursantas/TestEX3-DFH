@@ -44,7 +44,7 @@ Note: Technically, you can calculate all future number of days in a month, and a
 Equivalance classes       | Test Case
 ------------------------- | -------------------
 0 < month < 13   | Valid: 2
-0 > month || month > 13     | Invalid: -3  || 16
+0 > month or month > 13     | Invalid: -3  or 16
 0 <= year | Valid : 4018
 0 > year | Invalid: -232
 
