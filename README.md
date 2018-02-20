@@ -138,6 +138,20 @@ S1 = Startstate, S2 = Working, idle, ready state. S3 = Error, exception chrashed
 
 - 2). Derive test cases from the state diagram
 
+It is assumed that for all tests below, it will Construct new MyArrayListWithBugs() for each test case first. Excuse the psudocode.
+
+TC# | Testcase 
+---:| ----------------------------------------------------
+1 | Assert Size 0 -> Add(Object o) -> Assert size 1
+2 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> assert get(2)==o3
+3 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> remove(2) -> Assert size 2
+4 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> remove(2) -> Assert OutofBounds get(2)
+5 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> Assert OutOfBounds Add(0, o4)
+6 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> remove(3) -> add(525, o4) -> Assert get(525)==o4 -> assert Size 4
+7 | Add(object o1) -> Add(object o2) -> Assert size 2 -> Assert OutOfBounds remove(3)
+
+
+
 - 3). Implement automated unit tests uning the test cases above.
 
 - 4). Detect, locate and fix as many errors as possible in the class
