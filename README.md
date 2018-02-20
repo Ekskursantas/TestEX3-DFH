@@ -90,8 +90,12 @@ Invalid | Valid
 
 - 1). Make a decision table for example business case. [resource](https://github.com/datsoftlyngby/soft2018spring-test-teaching-material/blob/master/exercises/Test%20Case%20Exercises.pdf)
 
-some results
-
+Conditions:                | Rule 1 | Rule 2 | Rule 3 | Rule 4 |
+-------------------------- |:------:|:------:|:------:|:------:|
+C1          | T | T | F | F
+C2          | T | F | T | F
+Actions/Outcomes:   | - | - | - | -
+O1 | - | - | Y | -
 
 - 2). Make a decision table for leap years.
 
