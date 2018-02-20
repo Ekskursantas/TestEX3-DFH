@@ -2,11 +2,7 @@
 This is a mini project for the test course. The exercise is based off the description in this [resource](https://github.com/datsoftlyngby/soft2018spring-test-teaching-material/blob/master/exercises/Test%20Case%20Exercises.pdf)
 
 ## Description
-
-
-
-The result is this repository that include blabla bla and below documentation.
-
+This exercise is to practise using black box testing techniques. It is touching topics such as: Equivalence classes, Boundary value analysis, Decision table testing and state transition testing.
 
 ### Equivalence classes
 
