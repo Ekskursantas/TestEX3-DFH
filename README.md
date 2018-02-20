@@ -72,11 +72,14 @@ Invalid | Valid | Invalid
 - 3).
 
 Month
+
 Invalid | Valid  | Invalid
 -------:|:------:|:------------
 -∞ to 0 | 1 to 12 | 13 to ∞
 
+
 Year
+
 Invalid | Valid
 -------:|:-------
 -∞ to 0 | 1 to ∞
