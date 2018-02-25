@@ -150,6 +150,7 @@ TC# | Testcase
 4 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> remove(1) -> Assert OutofBounds get(1)
 5 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> Assert OutOfBounds Add(0, o4)
 6 | Add(object o1) -> Add(object o2) -> Add(object o3) -> Assert size 3 -> remove(3) -> add(525, o4) -> Assert get(525)==o4 -> assert Size 4
+
 7 | Add(object o1) -> Add(object o2) -> Assert size 2 -> Assert OutOfBounds remove(3)
 8 | Add(object o) -> Add(object o) -> Adding 12 objects -> Assert size 12
 
